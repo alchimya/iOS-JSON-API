@@ -13,10 +13,10 @@ You have just to send a request by using the stati method sendTo of the L3SDKJWA
   andDelegate:(id<L3SDKJWARequestDelegate>)delegate;
 ```
 where
- - url: is the url wher you want to send the request, for instance https://api.github.com/users/alchimya/repos
- - httpMethod: allows to define if you are sending a GET or a POST
- - params: put here the http body as a dictionary key (param name) and value
- - delegate: pass here you delegate class to receive the callbacks
+ - <b>url</b>: is the url wher you want to send the request, for instance https://api.github.com/users/alchimya/repos
+ - <b>httpMethod</b>: allows to define if you are sending a GET or a POST
+ - <b>params</b>: put here the http body as a dictionary key (param name) and value
+ - <b>delegate</b>: pass here you delegate class to receive the callbacks
 
 
 Here as example a code snippet
