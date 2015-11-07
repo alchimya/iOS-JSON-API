@@ -22,9 +22,11 @@ where
 Here as example a code snippet
 
 ```objectivec
-    [L3SDKJWARequest sendTo:@"https://api.github.com/users/alchimya/repos"
-            withMethod:HTTPRequestMethodGet
-             andParams:nil andDelegate:self];
+[L3SDKJWARequest 
+	sendTo:@"https://api.github.com/users/alchimya/repos"
+        withMethod:HTTPRequestMethodGet
+        andParams:nil andDelegate:self
+];
 
 -(void)L3SDKJWARequestDelegate_Response:(id)response{
 	//put here your code
