@@ -3,8 +3,8 @@ A very easy way to consume JSON API (ObjC and Swift)
 
 #How to use
 
-With the L3SDKJWARequest class (ObjC and Swift) yo can consume JSON API in a very easy and light way.
-You have just to send a request by using the stati method sendTo of the L3SDKJWARequest calss
+With the L3SDKJWARequest class (ObjC and Swift) you can consume JSON API in a very easy and light way.
+You have just to send a request by using the static method sendTo of the L3SDKJWARequest calss
 <br/>
 ```objectivec
 +(void)sendTo:(NSString*)url
