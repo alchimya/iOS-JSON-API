@@ -67,9 +67,8 @@ sendTo        			  | void            | static method used to send a request to t
 -(void)L3SDKJWARequestDelegate_Error:(NSError*)error;
 @end
 ```
-
-```objectivec
 <h5>enum</h5>
+```objectivec
 //enumeration to describe the http verbs
 typedef enum : NSUInteger {
     HTTPRequestMethodGet,
